@@ -4,21 +4,13 @@ void main() {
   runApp(MaterialApp(
     title: 'Frases do dia',
     home: Container(
-      color: Colors.white,
-      child: Column(
-        children: [
-          ElevatedButton(
-              onPressed: () {
-                print("Botão pressionado! :)");
-              },
-              child: Text(
-                "Clique",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.black,
-                    decoration: TextDecoration.none),
-              ))
-        ],
+      margin: EdgeInsets.only(top: 40),
+      decoration: BoxDecoration(
+        border: Border.all(width: 3, color: Colors.white),
+      ),
+      child: Image.asset(
+        "images/mesa.jpg",
+        fit: BoxFit.scaleDown,
       ),
     ),
   ));
