@@ -7,14 +7,16 @@
   </a>
 </p>
 
-## :bulb: Sobre o Projeto
+## 📜  Sobre o Projeto
 
-Aplicativo simples desenvolvido em Flutter para exibir frases inspiradoras e bíblicas aleatórias. A cada toque no botão "Nova Frase", o app seleciona uma citação dos Provérbios e exibe na tela.
+Este é um aplicativo simples e inspirador desenvolvido em Flutter que exibe frases bíblicas aleatórias dos Provérbios, ideais para começar o dia com uma reflexão positiva. Com um design limpo e funcionalidade intuitiva, o usuário pode gerar novas frases a cada clique no botão "Nova Frase".
 
 <p align="center">
   <img alt="new-exemple" src="app/assets/printscreen.gif" width="60%">
 </p>
 
-
-
+## :hammer_and_wrench: Requisitos
+<p>
+  📱 Versão mínima recomendada Flutter: 3.x.x & Versão mínima Dart SDK: 3.5.4
+</p>
 
